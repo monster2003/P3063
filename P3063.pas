@@ -15,7 +15,7 @@ begin
     while i<=y do
     begin
         g:=g+1;
-        i:=Trunc(i+(i/100*p));
+        i:=Trunc(i + (i/100*p));
     end;
     WriteLn(g);
 end.
